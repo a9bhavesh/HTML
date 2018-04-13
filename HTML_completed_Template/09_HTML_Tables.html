@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML TABLE TAG</title>
+    <style type="text/css">
+
+   body{
+    background-color: #ae903a;
+   }
+    table , th , td{
+            border: 5px solid black;
+            border-collapse: collapse;
+
+        }
+        th , td{
+            padding: 10px;
+            text-align: center;
+        }
+        #table-padding {
+                padding: 15px;           
+        }
+        #table-align {
+            text-align:right;           
+                  }
+        #table-css tr:nth-child(even){
+            background-color: seagreen;      
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Table Example -->   <!-- Table with Border Collapse -->
+   <h2>Simple table with collapse</h2>
+    <table width="100%">
+        <tr>
+            <th>s no.</th>
+            <th>name </th>
+            <th>roll no</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>nilesh</td>
+            <td>201</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+        <tr>
+            <td>2</td>
+            <td>nitesh</td>
+            <td>202</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dipesh</td>
+            <td>203</td>
+            <td>maths</td>
+        </tr> 
+        <tr>
+            <td>3</td>
+            <td>devesh</td>
+            <td>204</td>
+            <td>maths</td>
+        </tr> 
+    </table>
+    <!-- Table With Padding -->
+     <br><br><hr>
+    <!-- Table With Text Align -->
+    <h2>Table with align center</h2>
+    
+     <table width="100%" id="table-align">
+        <tr>
+            <th>s no.</th>
+            <th>name </th>
+            <th>roll no</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>nilesh</td>
+            <td>201</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>nitesh</td>
+            <td>202</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dipesh</td>
+            <td>203</td>
+            <td>maths</td>
+        </tr> 
+        <tr>
+            <td>3</td>
+            <td>devesh</td>
+            <td>204</td>
+            <td>maths</td>
+        </tr> 
+    </table>
+    <br><br><hr>
+    <!-- Table with Col Span -->
+     <h2>Table with Col Span</h2>
+     <table>
+        <tr>
+              <th colspan="4">class 12</th>
+        </tr>
+        <tr>
+            <th>s no.</th>
+            <th>name </th>
+            <th>roll no</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>nilesh</td>
+            <td>201</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>nitesh</td>
+            <td>202</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dipesh</td>
+            <td>203</td>
+            <td>maths</td>
+        </tr> 
+        <tr>
+            <td>3</td>
+            <td>devesh</td>
+            <td>204</td>
+            <td>maths</td>
+        </tr> 
+    </table>
+    <br><br><hr>
+    <!-- Table With Row Span -->
+    <h2>Table With Row Span</h2>
+     <table>
+        <tr>
+            <th>s no.</th>
+            <th>name </th>
+            <th>roll no</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>nilesh</td>
+            <td>201</td>
+            <td rowspan="4">maths</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>nitesh</td>
+            <td>202</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dipesh</td>
+            <td>203</td>
+           
+        </tr> 
+        <tr>
+            <td>3</td>
+            <td>devesh</td>
+            <td>204</td>
+          
+        </tr> 
+    </table>
+    <br><br><hr>
+    <!-- Custom Table with CSS -->
+    <h2>Custom Table with CSS</h2>
+     <table id="table-css" width="100%">
+        <tr>
+            <th>s no.</th>
+            <th>name </th>
+            <th>roll no</th>
+            <th>subject</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>nilesh</td>
+            <td>201</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>nitesh</td>
+            <td>202</td>
+            <td>maths</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>dipesh</td>
+            <td>203</td>
+            <td>maths</td>
+        </tr> 
+        <tr>
+            <td>3</td>
+            <td>devesh</td>
+            <td>204</td>
+            <td>maths</td>
+        </tr> 
+     </table>
+
+</body>
+</html>

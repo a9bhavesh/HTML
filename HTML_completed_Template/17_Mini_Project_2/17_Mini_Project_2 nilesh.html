@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style type="text/css">
+    	
+
+    	body{
+    		background-color:#488335b5;
+    		color: white;
+    		margin: 0px;	
+    		font-family: 'Roboto', sans-serif;
+    	}
+    	th , td {
+    		padding: 10px 10px 10px 10px;
+    	}
+    
+     th {
+    			text-align: center;
+    	}
+
+    	#personal-info{
+    		
+    	}
+    	#Educational-Qualification{
+
+    	}
+    	#Work_exp 1{
+
+    	}
+    	#Work_exp 2{}
+    	#Work_exp 3{}
+    	#submit,#reset {
+    		background-color:white;
+    		padding:20px 30px;
+    		border-radius: 10%;
+    		border: none;
+    	}
+    	#submit:hover , #reset:hover {
+    		background-color: seagreen;
+    		padding:20px 30px ;
+    		border-radius: 10%;
+    		border: none;
+    	}
+    	h1, h2 {padding: 10px;
+    		background-color: black;
+    	}
+    </style>
+<!--seagreen is a color name-->
+</head>
+<body>
+	<h1 class="top-h1" align="center">JOB APPLICATION FORM</h1>
+
+	<hr>
+
+	<form>
+		<div id="maindiv">
+			<div id="personal-info">
+				<h2><u>Personal Information</u>:- </h2>
+				<table width="100%">
+					<tr>
+						<td>
+							Firstname
+						</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+						<td>
+							MiddelName
+						</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+						<td>
+							Lastname
+						</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Father's name 
+						</td>
+						<td>
+							 <input type="text" size="25">
+						</td>
+						<td>
+							Mother's name	
+						</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Current Address
+						</td>
+						<td>
+							<textarea rows="10" cols="40"></textarea>
+						</td>	
+					
+						<td>
+							Permanent Address
+						</td>
+						<td>
+							<textarea rows="10" cols="40"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Phone Number
+						</td>
+						<td>
+							<input type="text" size="25" max="10" min="10">
+						</td>
+						<td>
+							Home Number
+						</td>
+						<td>
+							<input type="text" placeholder="areacode" size="25" max="10" min="10">
+						</td>
+						<td>
+							<input type="text" placeholder="Phone Number" size="25" max="10" min="10">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Mobile number
+						</td>
+						<td>
+							<input type="number" size="25">
+						</td>
+					</tr>
+					<tr>
+						<td>
+					        Date Of Birth
+					    </td>
+					    <td>
+					        <input type="date" id="date">
+						</td>
+						<td>
+							Place of Birth
+						</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Gender :
+						</td>
+						<td>
+							<input type="radio" name="gender" value="male"> Male
+							<input type="radio" name="gender" value="female"> Female
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Highest Qualification
+						</td>
+						<td>
+							<select>
+					    		<option>Higher School</option>
+					    		<option>Secondary School</option>
+					    		<option>Diploma</option>
+					    		<option>Graduate</option>
+					    		<option>Post Graduate</option>
+					    		<option>Any other courses</option>
+					      	</select>
+						</td>
+						<td>
+							Passing Year:
+						</td>
+						<td>
+							 <input type="month" id="year">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Language Knows :
+						</td>
+						<td>
+							 <input type="checkbox" value="Hindi"> Hindi
+	      					 <input type="checkbox" value="English"> English
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Hobbies :
+						</td>
+						<td>
+							<input type="checkbox" value="playing cricket"> Playing Cricket <br>
+	        				<input type="checkbox" value="singing"> Singing <br>
+	        				<input type="checkbox" value="eating"> Eating <br>
+	       					<input type="checkbox" value="coading"> Coading
+						</td>
+					</tr>
+					<tr>
+						<td>
+							About Yourself :
+						</td>
+						<td>
+							<textarea rows="10" cols="40"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Nationality
+						</td>
+						<td>
+							<option>Indian</option>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Aadhar no.
+						</td>
+						<td>
+							<input type="number" size="25" >
+						</td>
+						<td>
+							PAN no.
+						</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+					</tr>
+				</table>	
+			</div>
+			<br><hr>
+			<div id="Educational-Qualification" >
+				<h1><u> Educational Qualification </u> :- </h1>
+				<table width="100%">
+					<tr>
+						<th>S no. </th>
+						<th>Qualification</th>
+						<th>Institute/University</th>
+						<th>Year of Passing</th>
+						<th>Marks %</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td> <input type="text" size="35"> </td>
+						<td> <input type="text" size="35"> </td>
+						<td> <input type="month" id="year"> </td>
+						<td> <input type="number"> </td>
+
+					</tr>
+					<tr>
+						<td>2</td>
+						<td> <input type="text" size="35"> </td>
+						<td> <input type="text" size="35"> </td>
+						<td> <input type="month" id="year"> </td>
+						<td> <input type="number"> </td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td> <input type="text" size="35"> </td>
+						<td> <input type="text" size="35"> </td>
+						<td> <input type="month" id="year"> </td>
+						<td> <input type="number"> </td>
+					</tr>
+				</table>
+			</div>
+			<br><hr>
+			<div id="Work_exp 1">
+				<h1><u>Work Experiance 1 :- </u></h1>
+				<table width="100%">
+					<tr>
+						<th>S.no. </th>
+						<th>Company Address </th>
+						<th>Work/Role </th>
+						<th>Duraton (from-to) </th>
+					</tr>
+					<tr>
+						<td> 1 </td>
+						<td> <textarea rows="10" cols="50"> </textarea> </td>
+						<td> <textarea rows="10" cols="50"> </textarea> </td>
+						<td> <input type="month" id="year"> : <input type="month" id="year"> </td>
+					</tr>
+				</table>
+			</div>
+			<br><hr>
+			<div id="Work_exp 2">
+				<h1><u>Work Experiance 2 :- </u></h1>
+				<table width="100%">
+					
+
+					<tr>
+						<th>S.no. </th>
+						<th>Company Address </th>
+						<th>Work/Role </th>
+						<th>Duraton (from-to)</th>
+					</tr>
+					<tr>
+						<td> 1 </td>
+						<td> <textarea rows="10" cols="50"> </textarea> </td>
+						<td> <textarea rows="10" cols="50"> </textarea> </td>
+						<td> <input type="month" id="year"> : <input type="month" id="year"> </td>
+					</tr>
+				</table>
+			</div>
+			<br><hr>
+			<div id="Work_exp 3">
+				<h1><u>Work Experiance 3 :- </u></h1>
+				<table width="100%">
+					
+
+					<tr>
+						<th>S.no. </th>
+						<th>Company Address </th>
+						<th>Work/Role </th>
+						<th>Duraton (from-to)</th>
+					</tr>
+					<tr>
+						<td> 1 </td>
+						<td> <textarea rows="10" cols="50"> </textarea> </td>
+						<td> <textarea rows="10" cols="50"> </textarea> </td>
+						<td> <input type="month" id="year"> : <input type="month" id="year"> </td>
+					</tr>
+				</table>
+			</div>
+			<br><hr>
+			<div id="other-details">
+				<h1><u>Other Details</u></h1>
+				<table class="lasttable">
+					<tr>
+						<td>Job Type :</td>
+						<td rowspan="1">
+							<input type="checkbox" name="parmanent"> Parmanent
+							<input type="checkbox" name="Contract"> Contract
+							<input type="checkbox" name="other"> Other
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Date Of Joining
+						</td>
+						<td>
+							<input type="date" id="date">
+						</td>
+						<td>
+							Time of joining
+						</td>
+						<td>
+							<input type="time"> 
+						</td>
+					</tr>
+					<tr>
+						<td>Preferred Job Location :</td>
+						<td>
+							<input type="radio" name="Preferred Job Location" value="hyderabad">Hyderabad
+							<input type="radio" name="Preferred Job Location" value="Bangluru">Bangluru
+							<input type="radio" name="Preferred Job Location" value="pune">Pune
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Willing to Relocate to Hyderabad ?
+						</td>
+						<td>
+							<input type="radio" value="Willing to Relocate to Hyderabad ?" name="yes">yes
+							<input type="radio" value="Willing to Relocate to Hyderabad ?" name="no">no
+						</td>
+					</tr>
+				</table>
+			</div>
+			<br><hr>
+			<div align="center">
+				 <input type="checkbox" required="required" value="checked">  Ad sit dolore nostrud ut ea est dolore commodo ex do irure id quis id adipisicing.<br><br><br>
+				
+					<input type="Submit" id="submit" value="Submit">
+					<input type="Reset" id="reset" value="Reset">
+				<br><br><br><br><br>
+			</div>
+		</div>
+	</form>
+
+
+</body>
+</html>
